@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo $(echo "ibase=water; obase=bestchol; $WATER + $STIR" | bc)
+
+

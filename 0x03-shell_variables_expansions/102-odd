@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while IFS= read -r line; do
+
+  echo "$line"
+
+  IFS= read -r _ || break
+done
+

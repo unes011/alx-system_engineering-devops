@@ -1,0 +1,9 @@
+#!/bin/bash
+
+while IFS= read -r line; do
+
+  encoded=$(echo "$line" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
+
+  echo "$encoded"
+done
+

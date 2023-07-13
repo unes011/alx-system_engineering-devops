@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ -z "$BINARY" ]]; then
+  echo "ERROR: BINARY environment variable is not set."
+  exit 1
+fi
+decimal=$((2#$BINARY))
+echo "$decimal"
+
