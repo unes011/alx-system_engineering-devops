@@ -1,0 +1,2 @@
+find . -type f -empty -printf "%f\n" ; find . -type d -empty -printf "%f\n"
+
